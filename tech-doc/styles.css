@@ -67,6 +67,20 @@ nav {
   border-color: rgba(0, 22, 22, 0.4);
 }
 
+#navbar {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+}
+
+@media only screen and (max-width: 800px) {
+  #navbar {
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+  }
+}
+
 .nav-link {
   text-transform: capitalize;
   text-decoration: none;
