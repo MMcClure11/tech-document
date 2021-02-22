@@ -13,4 +13,20 @@ html {
 body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.6;
+  font-size: 1.6rem;
+}
+
+.section-header {
+  font-size: 2.5rem;
+  font-weight: 500;
+  letter-spacing: .15rem;
+  text-transform: capitalize;
+  padding: 1rem;
+  padding-left: 0;
+}
+
+.paragraph {
+  margin-bottom: 1rem;
+  width: 85%;
+  font-size: 1.5rem;
 }
